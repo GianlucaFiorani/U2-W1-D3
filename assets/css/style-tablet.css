@@ -17,10 +17,6 @@ button {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #742404;
 }
-h1 {
-  margin-left: 84px;
-  margin-top: 2rem;
-}
 
 nav {
   height: 100px;
@@ -34,7 +30,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 1rem;
 }
 button {
@@ -81,6 +77,7 @@ button {
   gap: 25px;
 }
 .banner {
+  width: min-content;
   display: flex;
   padding: 2rem 1.5rem;
   background-color: #fef7e2;
